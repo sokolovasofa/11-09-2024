@@ -1,11 +1,11 @@
 a=int(input("Введите время в часах:"))
-if a>=5 and a<=11:
+if 4<a<12:
     print("Утро")
-elif a>=12 and a<=17:
+elif 11<a<18:
     print("День")
-elif a>=18 and a<=22:
+elif 17<a<23:
     print("Вечер")
-elif a>=23 and a<=4:
+elif -1<a<5 or 22<a<24:
     print("Ночь")
 else:
     print("Ошибка")
