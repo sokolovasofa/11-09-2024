@@ -1,17 +1,7 @@
-print("Введите первую точку")
-x1 = float(input('X: '))
-y1 = float(input('Y: '))
-print("\nВведите вторую точку")
-x2 = float(input('X: '))
-y2 = float(input('Y: '))
-
-x_diff = x1 - x2
-y_diff = y1 - y2
-if x_diff == 0:
-    k = 1
-else:
-    k = y_diff / x_diff
-b = y2 - k * x2
-
-print("Уравнение прямой, проходящей через эти точки:")
-print("y = ", k, " * x + ", b)
+a=float(input("Введите координату х1:"))
+g=float(input("Введите координату y1:"))
+c=float(input("Введите координату х2:"))
+d=float(input("Введите координату y2:"))
+k=(d-g)/(c-a)
+b=g-(k*a)
+print(f"у={k}x+{b}")
