@@ -1,7 +1,7 @@
-a=int(input("Введите чило:"))
-if a==6 or a==7:
+a=int(input("Введите число:"))
+if 5<a<8:
     print("Выходной:)")
-elif a>=1 and a<6:
+elif 0<a<6:
     print("Будни:(")
 else:
     print("Ошибка!")
